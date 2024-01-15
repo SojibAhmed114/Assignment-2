@@ -1,0 +1,45 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100vh;
+} */
+:root{
+    --primaryTitle-color: #131318;
+    --paragraph-color: rgba(19, 19, 24, 0.70);
+    --btnbg-color: #FF5400;
+}
+
+/* header part design start*/
+
+.t-letter{
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 2.2rem;
+}
+.t-color{
+    color: #FF5400;
+    font-size: 2.2rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company-name{
+    display: flex;
+}
+.nav-list ul{
+    display: flex;
+}
+.nav-list ul li{
+    padding-right: 10px;
+    list-style: none;
+}
+.nav-list ul li a {
+    text-decoration: none;
+}
+/* header part design end */
