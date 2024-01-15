@@ -15,7 +15,9 @@
 }
 
 /* header part design start*/
-
+header{
+    margin: 30px 130px;
+}
 .t-letter{
     font-family: 'Bungee Spice', sans-serif;
     font-size: 2.2rem;
@@ -36,10 +38,20 @@ nav{
     display: flex;
 }
 .nav-list ul li{
-    padding-right: 10px;
+    padding-right: 40px;
     list-style: none;
 }
 .nav-list ul li a {
     text-decoration: none;
+    color: var(--paragraph-color);
 }
+.nav-list ul li:nth-child(1) a {
+    font-weight: 700;
+    color: #FF5400;
+}
+.nav-list ul li:nth-child(5){
+    padding-right: 0;
+    
+}
+
 /* header part design end */
