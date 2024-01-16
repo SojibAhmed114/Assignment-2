@@ -377,7 +377,6 @@ Destination-photo{
 
 /* our next tours plan start */
 .bangladesh-container{
-    background-color: rgba(28, 255, 7, 0.151);
     width: 100%;
     border-radius: 5px;
     margin: 100px 0;
@@ -392,6 +391,15 @@ Destination-photo{
     background-color: #FFF;
     border-radius: 5px;
     padding: 30px 10px;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.144);
+    transition: all .5s ease-in-out;
+}
+
+.service-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 255, 106, 0.308);
+    border: 1px solid rgba(102, 51, 153, 0.288);
+    transform:rotate(1deg)  translateY(10px);
 }
 .service-card h2{
     padding: 20px 0;
@@ -399,6 +407,25 @@ Destination-photo{
 }
 .service-card img {
     width: 100%;
+}
+.cost{
+    margin: 20px 0;
+}
+.package-btn{
+    padding: 5px 10px 5px 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 106, 0.308);
+    border:1px solid rgb(0, 255, 106) ;
+    font-weight: 700;
+    transition: all .5s ease-in-out;
+
+}
+.service-card:hover .package-btn {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid rgba(102, 51, 153, 0.288);
+    transform: translateY(-1px);
+    padding: 5px 20px 5px 5px;
 }
 /* our next tours plan end  */
 
