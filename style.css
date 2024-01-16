@@ -160,8 +160,23 @@ main{
 .popular-tours-photo img{
     width: 100%;
 }
-
 /* Popular Tours design end */
+
+/* Your Destination section start */
+.Destination-text{
+    margin: 10px auto;
+    text-align: center;
+    max-width: 643px;
+}
+.Destination-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.Destination-container img{
+    width: 100%;
+}
+/* Your Destination section end */
 
 /* main section end */
 
@@ -180,7 +195,7 @@ main{
     header{
         margin: 20px 30px;
     }
-    nav ,.sub-header-box, .Popular-Tours-container {
+    nav ,.sub-header-box, .Popular-Tours-container, .Destination-container {
         flex-direction: column;
     }
     .nav-list ul li{
