@@ -446,4 +446,27 @@ footer{
     .copyright{
         padding: 50px 0 0 0;
     }
+
+    /* Deals & Discounts responsive */
+    
+    .Deals-Discounts-box{
+        width: 100%;
+        margin: 200px 16px 16px 16px;
+    }
+    .text-one{
+        flex-direction: column;
+        gap: 0;
+    }
+    .common-paragraph{
+        padding: 5px 0;
+    }
+
+    .Deals-Discounts-box{
+        width: 100%;
+        margin: 200px 16px 16px 16px;
+    }
+    .DealsDiscounts-box{
+        width: 100%;
+        margin: 200px 16px 16px 16px;
+    }
 }
