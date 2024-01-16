@@ -115,6 +115,7 @@ nav{
     font-weight: 700;
     border-radius: 8px;
     border: 0;
+    cursor: pointer;
 }
 /* header part design end */
 
@@ -156,6 +157,7 @@ main{
     font-size: 1.2rem;
     border-radius: 8px;
     border: 0;
+    cursor: pointer;
 }
 .popular-tours-photo img{
     width: 100%;
@@ -214,12 +216,41 @@ main{
     .newsletter-container{
         display: flex;
         gap: 24px;
+        margin: 30px auto;
     }
     .newsletters{
         border: 1px solid #FF5400;
         border-radius: 16px;
         padding: 40px;
     }
+    .user-form{
+        display: block;
+        width: 392px;
+        /* border: 1px solid red; */
+
+
+    }
+    .user-form input , .Subscribe{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 16px 20px;
+        margin-bottom: 16px;
+        border-radius: 8px;
+        height: 52px;
+        border: 0;
+    }
+    .user-form input{
+        background: rgba(19, 19, 24, 0.05);
+    }
+    .user-form input[type="email"] {
+        margin-bottom: 20px;
+    }
+
+    .newsletter img{
+        width: 100%;
+        height: 422px;
+    }
+
 /* Newsletter section design added end */
 
 /* main section end */
