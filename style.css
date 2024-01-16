@@ -526,10 +526,10 @@ footer{
         position: static ;
     }
     .box{
-        /* position: static; */
+        /* position: static; top:150, left:95 */
         width: 300px;
-        top:-150px;
-        left: 95px;
+        top:-160px;
+        left: 55px;
         transform: rotate(-30deg); 
         color: #fff;
     }
