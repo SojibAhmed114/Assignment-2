@@ -52,6 +52,9 @@ nav{
     padding-right: 0;
     
 }
+.hide{
+    display: none;
+}
 
 
 .header-photo-container{
@@ -390,6 +393,12 @@ footer{
     .nav-list ul li{
         padding-right: 12px;
     }
+    .hide{
+        display: block;
+    }
+    .hideM{
+        display: none;
+    }
     .header-photo-container{
         height: 100%;
     }
@@ -425,12 +434,16 @@ footer{
     .common-title{
         font-size: 2rem;
     }
+   
     .user-form{
         display: block;
         width: 250px;
     }
     .newsletter img{
         width: 92%;
+    }
+    .newsphoto{
+        position: static ;
     }
     .box{
         position: relative;
