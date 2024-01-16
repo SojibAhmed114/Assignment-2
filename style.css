@@ -372,8 +372,35 @@ Destination-photo{
         font-size: 2rem;
         font-weight: 700;
     }
-
 /* Newsletter section design added end */
+
+
+/* our next tours plan start */
+.bangladesh-container{
+    background-color: rgba(28, 255, 7, 0.151);
+    width: 100%;
+    border-radius: 5px;
+    margin: 100px 0;
+    padding: 20px 0;
+}
+.cards-container{
+    display: flex;
+    gap: 1em;
+}
+.service-card{
+    border: 1px solid rgba(102, 51, 153, 0.288);
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 30px 10px;
+}
+.service-card h2{
+    padding: 20px 0;
+    text-align: center;
+}
+.service-card img {
+    width: 100%;
+}
+/* our next tours plan end  */
 
 /* main section end */
 
@@ -413,7 +440,7 @@ footer{
     header{
         margin: 20px 30px;
     }
-    nav , .sub-header-box, .Popular-Tours-container, .Destination-container, .Card-Container, .newsletter-container{
+    nav , .sub-header-box, .Popular-Tours-container, .Destination-container, .Card-Container, .newsletter-container, .cards-container{
         flex-direction: column;
     }
     .nav-list ul li{
@@ -507,5 +534,8 @@ footer{
     .DealsDiscounts-box{
         width: 100%;
         margin: 200px 16px 16px 16px;
+    }
+    .service-card{
+        margin: 0 50px;
     }
 }
