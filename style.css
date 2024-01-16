@@ -212,6 +212,45 @@ main{
 /* Why Choose Us section end */
 
 
+/* Deals & Discounts section start */
+.Deals-Discounts-sub-container{
+    background-image: url('./Images/Group\ 39.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+.Deals-Discounts-info-content{
+    border-radius: 16px;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.Deals-Discounts-box{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 60%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.Deals-Discounts-price{
+    font-weight: 700;
+    margin: 10px 0;
+    color: var(--btnbg-color);
+}
+.text-one{
+    display: flex;
+    gap: 10px;
+}
+/* Deals & Discounts section end */
+
+
 /* Newsletter section design added start */
     .newsletter-container{
         display: flex;
