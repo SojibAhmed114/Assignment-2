@@ -178,8 +178,30 @@ main{
 }
 /* Your Destination section end */
 
-/* main section end */
+/* Why Choose Us section start */
+.Card-Container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    justify-items: center;
+}
+.card{
+    width: 530px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    box-sizing: border-box;
+}
 
+.Card-center{
+    display: flex;
+    margin-top: 24px;
+    justify-content: center;
+}
+/* Why Choose Us section end */
+
+/* main section end */
 
 
 
