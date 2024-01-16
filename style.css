@@ -472,10 +472,10 @@ footer{
         position: static ;
     }
     .box{
-        position: relative;
+        /* position: static; */
         width: 300px;
-        top:280px;
-        left: 20px;
+        top:-150px;
+        left: 95px;
         transform: rotate(-30deg); 
         color: #fff;
     }
