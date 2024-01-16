@@ -280,8 +280,25 @@ main{
 /* footer section start */
 footer{
     background: rgba(19, 19, 24, 0.05);
+    padding: 110px 170px;
 }
-
+.footer-container{
+    text-align: center;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+}
+.link-photo{
+    display: flex;
+    justify-content: center;
+}
+.link-photo a{
+    padding: 30px;
+}
+.copyright{
+    padding: 100px 0;
+}
 /* footer section end */
 
 
@@ -351,5 +368,10 @@ footer{
         transform: rotate(-30deg); 
         color: #fff;
     }
-
+    footer{
+        padding: 100px 20px;
+    }
+    .copyright{
+        padding: 50px 0 0 0;
+    }
 }
