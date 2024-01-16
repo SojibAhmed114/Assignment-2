@@ -209,6 +209,19 @@ main{
 }
 /* Why Choose Us section end */
 
+
+/* Newsletter section design added start */
+    .newsletter-container{
+        display: flex;
+        gap: 24px;
+    }
+    .newsletters{
+        border: 1px solid #FF5400;
+        border-radius: 16px;
+        padding: 40px;
+    }
+/* Newsletter section design added end */
+
 /* main section end */
 
 
@@ -262,6 +275,9 @@ main{
     }
     .Card-Container div{
         width: 100%;
+    }
+    .common-title{
+        font-size: 2rem;
     }
 
 }
