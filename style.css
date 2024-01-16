@@ -248,6 +248,37 @@ main{
     display: flex;
     gap: 10px;
 }
+
+/* photo two added  */
+.DealsDiscounts-sub-container{
+    background-image: url('./Images/Discounts.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.DealsDiscounts-info-content{
+    border-radius: 16px;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.DealsDiscounts-box{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 60%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+/* deals discounts photo two end */
+
+
 /* Deals & Discounts section end */
 
 
