@@ -195,7 +195,7 @@ main{
     header{
         margin: 20px 30px;
     }
-    nav ,.sub-header-box, .Popular-Tours-container, .Destination-container {
+    nav , .sub-header-box, .Popular-Tours-container, .Destination-container {
         flex-direction: column;
     }
     .nav-list ul li{
