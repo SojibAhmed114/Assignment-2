@@ -178,6 +178,14 @@ main{
     gap: 24px;
     margin-bottom: 24px;
 }
+Destination-photo{
+    background: url('./Images/Rectangle\ 5.png');
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .Destination-container img{
     width: 100%;
 }
@@ -282,9 +290,27 @@ main{
     box-sizing: border-box;
 }
 /* deals discounts photo two end */
-
-
+.package{
+    display: block;
+    margin: 30px auto 100px auto;
+    /* width: 150px; */
+    height: 10vh;
+    background-color: var(--btnbg-color);
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 0 30px;
+    border: 0;
+    cursor: pointer;
+}
 /* Deals & Discounts section end */
+
+/* A Simple Perfect Place To Get Lost start */
+.popular-tours-photo iframe{
+    width: 100%;
+}
+/* A Simple Perfect Place To Get Lost end */
 
 
 /* Newsletter section design added start */
